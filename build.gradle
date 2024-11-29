@@ -1,1 +1,3 @@
-commandLine 'cmd', '/c', 'echo Hello, World!'
+task runShellCommand(type: Exec) {
+    commandLine 'cmd', '/c', 'echo Hello, World!'
+}
