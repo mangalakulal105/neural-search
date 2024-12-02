@@ -1,3 +1,8 @@
 task runShellCommand(type: Exec) {
-    commandLine 'cmd', '/c', 'echo Hello, World!'
+    // Use the appropriate shell based on the operating system
+    if (System.getProperty('os.name').toLowerCase().contains('windows')) {
+        commandLine 'cmd', '/c', 'echo Hello, World!'
+    } else {
+        commandLine 'sh', '-c', 'echo "Hello, World!"'
+    }
 }
